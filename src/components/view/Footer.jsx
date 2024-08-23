@@ -1,12 +1,14 @@
 import React from 'react'
-import Backtop from '../footer/Backtop'
-
 const Footer = () => {
+
+    const year = new Date().getFullYear()
+
     return (
-        <>
-            <Backtop />
-        </>
+        <div>
+            <p>{year} copyright</p>
+        </div>
     )
 }
+
 
 export default Footer
