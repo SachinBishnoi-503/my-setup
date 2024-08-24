@@ -1,14 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/view/Home";
-import Footer from "./components/view/Footer";
+import Header from "./common/Header";
+import Hero from "./components/home/Hero";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/Home" element={<Home />} ></Route>
-        <Route path="/Footer" element={<Footer />} ></Route>
-      </Routes>
+      <Header />
+      <Hero />
     </>
   );
 }
