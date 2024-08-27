@@ -1,14 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import Header from "./common/Header";
-import Hero from "./components/home/Hero";
-import Form from "./components/home/Form";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './components/view/Home';
+import Seacond from './components/view/Seacond';
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Form/>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/seacond' element={<Seacond />} />
+      </Routes>
     </>
   );
 }

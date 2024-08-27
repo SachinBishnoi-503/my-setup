@@ -19,3 +19,41 @@ export const CARD_SIX = [
         link: "Read more"
     },
 ]
+export const SIX = [
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+    {
+        img: card_image,
+        heading: "Lorem ipsum",
+        para: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        link: "Read more"
+    },
+]

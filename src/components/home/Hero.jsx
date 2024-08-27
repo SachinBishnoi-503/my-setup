@@ -1,5 +1,4 @@
 import React from 'react'
-import partner from '../../assets/images/svg/partner.svg'
 import { CARD_SIX } from '../../common/Helper'
 
 const Hero = () => {

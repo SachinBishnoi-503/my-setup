@@ -1,16 +1,17 @@
-import React from 'react'
-import Hero from '../home/Hero'
-import Navbar from '../home/Navbar'
-import Backtop from '../footer/Backtop'
-import Form from '../home/Form'
+import Header from "../../common/Header";
+import Hero from "../home/Hero";
+import Form from "../home/Form";
+import Footer from "../../common/Footer";
+import Navbar from "../../common/Navbar";
 
 const Home = () => {
     return (
         <>
-            <Hero />
-            <Form />
             <Navbar />
-            <Backtop />
+            <Header />
+            <Hero clasName='bg-lineargradiant'/>
+            <Form />
+            <Footer />
         </>
     )
 }

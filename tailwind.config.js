@@ -12,6 +12,13 @@ module.exports = {
       backgroundImage: {
         'lineargradiant': "linear-gradient(107.6deg, #FF5501 8.81%, #B1106F 163.48%)"
       },
+      colors: {
+        'colorpink': "#FFF3ED",
+        'skyBlue': "#43BBFF",
+        'darkBlue': "#002B43",
+        'offBlack': "#1E1E1E",
+      },
+
       fontFamily: {
         'lato': "Lato, sans-serif",
         'Montserrat': "Montserrat , sans-serif",
