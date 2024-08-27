@@ -1,9 +1,9 @@
 import React from 'react'
 import searchicon from '../assets/images/svg/Search-icon.svg'
 
-const Header = () => {
+const Header = ({className}) => {
     return (
-        <div className='min-h-[700px] bg-lineargradiant  pt-[160px]'>
+        <div className={`${className} min-h-[700px]  pt-[160px]`}>
             <div className="container">
                 <h2 className='font-extrabold text-[60px] leading-[72px] font-lato text-white max-w-[901px] mx-auto text-center'>Lorem ipsum dolor sit amet consectetur. Sceleris</h2>
                 <p className=' font-Montserrat font-medium text-white leading-[22.4px] text-[16px] text-center mt-[20px]'>Lorem ipsum dolor sit amet consectetur. Id mattis at tristique duis.</p>

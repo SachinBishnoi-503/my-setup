@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <Header />
-            <Hero clasName='bg-lineargradiant'/>
+            <Header className="bg-lineargradiant" />
+            <Hero />
             <Form />
             <Footer />
         </>
