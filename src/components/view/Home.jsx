@@ -3,7 +3,6 @@ import Hero from "../home/Hero";
 import Form from "../home/Form";
 import Footer from "../../common/Footer";
 import Navbar from "../../common/Navbar";
-
 const Home = () => {
     return (
         <>
@@ -15,5 +14,4 @@ const Home = () => {
         </>
     )
 }
-
 export default Home

@@ -10,11 +10,14 @@ const Hero = () => {
         </div>
         <div className='flex items-center gap-6 justify-center'>
           {CARD_SIX.map((obj, index) => (
-            <div className="p-[20px_30px] bg-[#FFF3ED] max-w-[365px] rounded-[22px] mt-[40px]" key={index}>
-              <img src={obj.img} alt="no-image" />
-              <h2 className=' font-semibold text-[24px] mb-0 font-lato pt-[32px] leading-6'>{obj.heading}</h2>
-              <p className='max-w-[282px] text-[16px]  font-normal mb-0 font-lato pt-[16px] leading-6'>{obj.para} <a href="" className='text-[16px]  font-normal mb-0 font-lato pt-[16px] leading-6 text-[#FF5501]'>{obj.link}</a></p>
+            <div className={`${index=== 1 ? 'bg-red-500' : 'bg-black'}`}>
+              <div className="p-[20px_30px] bg-[#FFF3ED] max-w-[365px] rounded-[22px] mt-[40px]" key={index}>
+                <div>{ obj.icon}</div>
+                <h2 className=' font-semibold text-[24px] mb-0 font-lato pt-[32px] leading-6'>{obj.heading}</h2>
+                <p className='max-w-[282px] text-[16px]  font-normal mb-0 font-lato pt-[16px] leading-6'>{obj.para} <a href="" className='text-[16px]  font-normal mb-0 font-lato pt-[16px] leading-6 text-[#FF5501]'>{obj.link}</a></p>
+              </div>
             </div>
+
           ))}
         </div>
       </div>
