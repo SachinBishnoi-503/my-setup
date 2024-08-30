@@ -24,7 +24,6 @@ const Seacond = () => {
                 </div>
             </div>
             <Footer className='bg-darkBlue' />
-
         </>
     )
 }

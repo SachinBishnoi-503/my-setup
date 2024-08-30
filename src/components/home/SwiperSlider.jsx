@@ -3,24 +3,29 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
-import { EffectCube, Pagination } from 'swiper/modules';
-
+import { Autoplay, EffectCube, Pagination,Navigation } from 'swiper/modules';
 
 const SwiperSlider = () => {
     return (
         <>
-            <div className='max-w-[1440px] my-[400px]'>
+            <div className='max-w-[1440px] my-[200px]'>
                 <Swiper
                     effect={'cube'}
                     grabCursor={true}
                     cubeEffect={{
                         shadow: true,
                         slideShadows: true,
-                        shadowOffset: 20,
+                        shadowOffset: 1,
                         shadowScale: 0.94,
                     }}
-                    pagination={true}
-                    modules={[EffectCube, Pagination]}
+                    pagination={{ clickable: true }}
+                    navigation={true}
+                    autoplay={{
+                        delay: 1, // Time in milliseconds between slide transitions
+                        disableOnInteraction: false, // Continue autoplay after user interactions
+                    }}
+                    loop={true}
+                    modules={[EffectCube,Autoplay]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
@@ -36,11 +41,8 @@ const SwiperSlider = () => {
                         <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
                     </SwiperSlide>
                 </Swiper>
-          </div>
+            </div>
         </>
     );
 }
-
-
-
 export default SwiperSlider

@@ -6,7 +6,7 @@ const Footer = () => {
     let path = window.location.pathname;
 
     return (
-        <div className={`${path === "/Seacond" ? "rounded-none bg-black mt-[155px]" : "bg-red-500 rounded-[30px_30px_0px_0px] mt-[155px] "}`}>
+        <div className={`${path === "/Seacond" ? "rounded-none bg-black " : "bg-red-500 rounded-[30px_30px_0px_0px] "}`}>
             <div className=''>
                 <div className="container pt-[78px]">
                     <div className="row w-full -mx-3 flex flex-row flex-nowrap justify-between">
