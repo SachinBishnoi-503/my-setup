@@ -1,12 +1,13 @@
 import React from 'react'
 import { CARD_SIX } from '../../common/Helper'
+import 'animate.css';
 
 const Hero = () => {
   return (
     <div>
       <div className='  container'>
         <div className="mt-[135px]">
-          <h2 className='  font-semibold text-[40px] font-lato justify-center  flex'>Lorem ipsum</h2>
+          <h2 className='  font-semibold text-[40px] font-lato justify-center  flex animate__animated animate__bounce'>Lorem ipsum</h2>
         </div>
         <div className='flex items-center gap-6 justify-center'>
           {CARD_SIX.map((obj, index) => (
